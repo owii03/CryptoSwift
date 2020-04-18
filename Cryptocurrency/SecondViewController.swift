@@ -10,9 +10,15 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var photoProfile: UIImageView!
+    @IBOutlet weak var nameProfile: UILabel!
+    @IBOutlet weak var emailProfile: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.navigationItem.title = "Profile"
+        
     }
 
 

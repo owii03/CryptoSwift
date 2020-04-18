@@ -14,6 +14,12 @@
 		E881F55A24484D210021646C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E881F55824484D210021646C /* Main.storyboard */; };
 		E881F55C24484D220021646C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E881F55B24484D220021646C /* Assets.xcassets */; };
 		E881F55F24484D220021646C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E881F55D24484D220021646C /* LaunchScreen.storyboard */; };
+		E881F56824484E5F0021646C /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E881F56624484E5F0021646C /* CoinTableViewCell.swift */; };
+		E881F56924484E5F0021646C /* CoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E881F56724484E5F0021646C /* CoinTableViewCell.xib */; };
+		E881F56B2448515B0021646C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E881F56A2448515B0021646C /* Coin.swift */; };
+		E881F56D244851670021646C /* DummyCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E881F56C244851670021646C /* DummyCoin.swift */; };
+		E881F57024485A400021646C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E881F56E24485A400021646C /* DetailViewController.swift */; };
+		E881F57124485A400021646C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E881F56F24485A400021646C /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		E881F55B24484D220021646C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E881F55E24484D220021646C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E881F56024484D220021646C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E881F56624484E5F0021646C /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		E881F56724484E5F0021646C /* CoinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTableViewCell.xib; sourceTree = "<group>"; };
+		E881F56A2448515B0021646C /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		E881F56C244851670021646C /* DummyCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCoin.swift; sourceTree = "<group>"; };
+		E881F56E24485A400021646C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E881F56F24485A400021646C /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +73,17 @@
 				E881F55024484D200021646C /* AppDelegate.swift */,
 				E881F55224484D200021646C /* SceneDelegate.swift */,
 				E881F55424484D210021646C /* FirstViewController.swift */,
+				E881F56A2448515B0021646C /* Coin.swift */,
+				E881F56E24485A400021646C /* DetailViewController.swift */,
+				E881F56F24485A400021646C /* DetailViewController.xib */,
+				E881F56C244851670021646C /* DummyCoin.swift */,
 				E881F55624484D210021646C /* SecondViewController.swift */,
 				E881F55824484D210021646C /* Main.storyboard */,
 				E881F55B24484D220021646C /* Assets.xcassets */,
 				E881F55D24484D220021646C /* LaunchScreen.storyboard */,
 				E881F56024484D220021646C /* Info.plist */,
+				E881F56624484E5F0021646C /* CoinTableViewCell.swift */,
+				E881F56724484E5F0021646C /* CoinTableViewCell.xib */,
 			);
 			path = Cryptocurrency;
 			sourceTree = "<group>";
@@ -130,6 +148,8 @@
 			files = (
 				E881F55F24484D220021646C /* LaunchScreen.storyboard in Resources */,
 				E881F55C24484D220021646C /* Assets.xcassets in Resources */,
+				E881F57124485A400021646C /* DetailViewController.xib in Resources */,
+				E881F56924484E5F0021646C /* CoinTableViewCell.xib in Resources */,
 				E881F55A24484D210021646C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E881F56B2448515B0021646C /* Coin.swift in Sources */,
 				E881F55724484D210021646C /* SecondViewController.swift in Sources */,
+				E881F56D244851670021646C /* DummyCoin.swift in Sources */,
 				E881F55524484D210021646C /* FirstViewController.swift in Sources */,
 				E881F55124484D200021646C /* AppDelegate.swift in Sources */,
 				E881F55324484D200021646C /* SceneDelegate.swift in Sources */,
+				E881F56824484E5F0021646C /* CoinTableViewCell.swift in Sources */,
+				E881F57024485A400021646C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
