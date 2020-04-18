@@ -17,10 +17,5 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "Profile"
-        
     }
-
-
 }
-

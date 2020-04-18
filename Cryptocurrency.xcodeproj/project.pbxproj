@@ -70,22 +70,54 @@
 		E881F54F24484D200021646C /* Cryptocurrency */ = {
 			isa = PBXGroup;
 			children = (
-				E881F55024484D200021646C /* AppDelegate.swift */,
-				E881F55224484D200021646C /* SceneDelegate.swift */,
-				E881F55424484D210021646C /* FirstViewController.swift */,
-				E881F56A2448515B0021646C /* Coin.swift */,
-				E881F56E24485A400021646C /* DetailViewController.swift */,
-				E881F56F24485A400021646C /* DetailViewController.xib */,
-				E881F56C244851670021646C /* DummyCoin.swift */,
-				E881F55624484D210021646C /* SecondViewController.swift */,
-				E881F55824484D210021646C /* Main.storyboard */,
+				E897556B244BA561001E6EB4 /* Base */,
+				E897556A244BA548001E6EB4 /* Model */,
+				E897556C244BA574001E6EB4 /* View */,
+				E897556D244BA57E001E6EB4 /* Controller */,
 				E881F55B24484D220021646C /* Assets.xcassets */,
 				E881F55D24484D220021646C /* LaunchScreen.storyboard */,
 				E881F56024484D220021646C /* Info.plist */,
-				E881F56624484E5F0021646C /* CoinTableViewCell.swift */,
-				E881F56724484E5F0021646C /* CoinTableViewCell.xib */,
 			);
 			path = Cryptocurrency;
+			sourceTree = "<group>";
+		};
+		E897556A244BA548001E6EB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E881F56A2448515B0021646C /* Coin.swift */,
+				E881F56C244851670021646C /* DummyCoin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E897556B244BA561001E6EB4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E881F55024484D200021646C /* AppDelegate.swift */,
+				E881F55224484D200021646C /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E897556C244BA574001E6EB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E881F56F24485A400021646C /* DetailViewController.xib */,
+				E881F55824484D210021646C /* Main.storyboard */,
+				E881F56724484E5F0021646C /* CoinTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E897556D244BA57E001E6EB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E881F56624484E5F0021646C /* CoinTableViewCell.swift */,
+				E881F55424484D210021646C /* FirstViewController.swift */,
+				E881F56E24485A400021646C /* DetailViewController.swift */,
+				E881F55624484D210021646C /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
